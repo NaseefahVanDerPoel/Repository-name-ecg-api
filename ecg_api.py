@@ -25,7 +25,7 @@ MODEL_DIR = Path(
     r"C:\Users\Admin\OneDrive\Desktop\ecg images\ECG_Project\models\ecg-api-deployment"
 )
 
-CHECKPOINT_PATH = MODEL_DIR / "ecg_cnn_best.pth"
+CHECKPOINT_PATH = "ecg_cnn_best.pth"
 
 IMG_SIZE = 224   # overwritten below by checkpoint's saved img_size if present
 
